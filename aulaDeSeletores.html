@@ -1,0 +1,65 @@
+﻿<DOCTYPE html>
+<html>
+<head>
+<title>seletores</title>
+
+	<style type= "text/css">
+		/* 
+		Seletor {propriedade: valor}
+		*/
+
+p{color: blue;}
+#meio {
+color: orange;
+font-family: arial;
+font-size: 18px;
+}
+
+.titulo {
+	color:grey;
+           }
+
+ul#lista li:first-child{
+color:red;
+}
+ul li{
+color:green;
+}
+
+a{
+font-size:1.2em;
+color:#998844
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+color: #008800;
+}
+
+p::after{
+content: '*';
+}
+</style>
+
+</head>
+<body>
+
+<h1>Boca</h1>
+<p class=" titulo">Foi feita pá cumé</p>
+<h2>Bebida</h2>
+<p id="meio" > Foi feita para beber</p>
+<h3 class ="titulo">Roupa</h3>
+<p>Foi feita para vestir hahaha'</p>
+
+
+
+<ul id="lista">
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+</ul>
+
+<a href ="#"> Link </a>
+</body>
+</html>
